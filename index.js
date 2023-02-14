@@ -6,7 +6,7 @@ const authToken =  config.AUTH_TOKEN;
 const client = require('twilio') (accountSid, authToken);
 
 const messages = require('./messages');
-const currentMessage = 0;
+var currentMessage = 0;
 
 
 function sendMessage(){
@@ -18,12 +18,11 @@ function sendMessage(){
     })
     .then (message => {
         currentMessage++;
-        sendMessage();
-        console.log('Message sent!')
+        console.log(message)
     });
 }
 
-
-cron.schedule('0 * * * *', () => {
-    console.log('run every hour')
+cron.schedule('* * * * *', () => {
+    sendMessage();
+    console.log('Message sent!')
 });
