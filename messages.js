@@ -1,0 +1,27 @@
+module.exports = [
+'I\'m so grateful to have you in my life.',
+'I love how you always know how to make me feel better.',
+'You always know how to make me smile.',
+'You are the best thing that ever happened to me.',
+'I love the way you look at me.',
+'You make me feel so loved and appreciated.',
+'I\'m lucky to be yours.',
+'Thank you for being my rock and support system.',
+'You make every day brighter just by being in it.',
+'I can\'t imagine my life without you.',
+'Your love makes my heart full.',
+'I love you to the moon and back',
+'I feel so safe and secure when I\'m with you.',
+'Thank you for always making me feel special.',
+'I love the way you make me feel.',
+'You are the missing puzzle piece in my life.',
+'I appreciate everything you do for me.',
+'You are my forever and always.',
+'My heart beats faster every time I see you.',
+'You light up my life like nobody else.',
+'You make me believe in love and all the magic that comes with it.',
+'Thank you for being my partner and my best friend.',
+'I love you more and more every day.',
+'I\'m excited for our future together.'
+
+]
