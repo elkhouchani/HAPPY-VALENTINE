@@ -1,0 +1,11 @@
+{
+  "name": "valentines",
+  "version": "1.0.0",
+  "description": "Send a message to my boyfriend every hour",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Siham EL KHOUCHANI",
+  "license": "ISC"
+}
